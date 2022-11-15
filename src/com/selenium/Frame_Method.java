@@ -31,7 +31,9 @@ public class Frame_Method {
 	
 	WebElement textbox1 = driver.findElement(By.xpath("//input[@type='text']"));
 	textbox1.sendKeys("john");
+	  
 	
+	driver.findElement(null);
 	
 	
 	
